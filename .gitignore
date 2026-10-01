@@ -1,6 +1,27 @@
 # Local .terraform directories
 .terraform/
 
+# Extra secrets protection
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.kubeconfig
+kubeconfig
+secrets.yaml
+secrets.yml
+*-secret.yaml
+*-secret.yml
+*.token
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
